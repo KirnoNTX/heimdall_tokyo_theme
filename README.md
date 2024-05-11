@@ -3,9 +3,9 @@
 
 ## Images
 
-![home](https://github.com/KirnoNTX/heimdall_tokyo_theme/doc/home.png)
-![home_no_login](https://github.com/KirnoNTX/heimdall_tokyo_theme/doc/home_no_login.png)
-![home_search](https://github.com/KirnoNTX/heimdall_tokyo_theme/doc/home_search.png)
+![home](./doc/home.png)
+![home_no_login](./doc/home_no_login.png)
+![home_search](./doc/home_search.png)
 
 ## Features
 
