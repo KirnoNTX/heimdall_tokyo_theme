@@ -1,0 +1,180 @@
+/* by Kirno (natyx.net) */
+
+#sortable {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start !important;
+  gap: 1rem;
+  opacity: 1;
+}
+
+.tags-container {
+   flex: 1;
+   background-color: #030a1466;
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(2, 50%);
+}
+ 
+.tags-title {
+    color: #3a77b5;
+    text-transform: capitalize;
+    margin: 20px
+}
+
+.item {
+    background-color: #004d7b;
+    align-items: center;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: linear-gradient(150deg, rgba(0,77,123,1) 0%, rgba(0,17,55,1) 40%, rgba(0,17,55,1) 50%, rgba(80,21,55,1) 100%);
+    border-radius: 10px;
+    color: #3a77b5;
+    display: flex;
+    flex: 0 0 280px;
+    height: 90px;
+    margin: 20px;
+    outline: 1px solid transparent;
+    overflow: hidden;
+    padding: 15px 55px 15px 15px;
+    position: relative;
+    transition: all .35s ease-in-out;
+    width: 280px
+}
+
+.title {
+    color: #bdd2de !important;
+}
+
+.item .link {
+    color: #004d7b !important;
+    font-size: 24px;
+    height: 100%;
+    line-height: 90px;
+    padding-right: 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 1
+}
+
+.livestats-container .livestats strong {
+    align-items: center;
+    color: #bdd2de !important;
+    display: block;
+    display: flex;
+    font-size: 12px;
+    line-height: 1;
+    line-height: 1.2
+}
+
+.searchform {
+    align-self: flex-start;
+    background: rgba(0,0,0,.2);
+    border-color: transparent !important;
+    border-bottom: transparent !important;
+    border-radius: 14px;
+    border-top: 1px solid rgba(0,0,0,.5);
+    box-shadow: inset 0 1px 6px 0 rgba(0,0,0,.3);
+    display: flex;
+    margin: 50px auto;
+    max-width: 620px;
+    padding: 14px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 4
+}
+
+.searchform select {
+    background-color: transparent !important;
+    border: none;
+    color: #bdd2de !important;
+    border-radius: 10px;
+    border-color: transparent !important;
+    padding: 0 10px
+}
+
+.searchform select option {
+  background-color: #004d7b;
+}
+
+.searchform input {
+    background: transparent !important;
+    border: 0;
+    border-radius: 10px;
+    color: #bdd2de !important;
+    border-color: transparent !important;
+    font-size: 15px;
+    padding: 18px 18px;
+    width: 100%
+}
+
+.searchform input::placeholder {
+    color: #bdd2de;
+}
+
+.searchform button {
+    background: transparent !important;
+    border: none;
+    border-color: transparent !important;
+    border-radius: 10px !important;
+    color: #bdd2de !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 7px 15px;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 0
+}
+
+.searchform .input-container {
+    background: transparent;
+    border-radius: 10px;
+    border-color: transparent !important;
+    box-shadow: 0 0 5px 0 #00000066;
+    background: linear-gradient(150deg, rgba(0,77,123,1) 0%, rgba(0,17,55,1) 40%, rgba(0,17,55,1) 50%, rgba(80,21,55,1) 100%);
+    display: flex;
+    overflow: hidden;
+    position: relative
+}
+
+@media (max-width: 680px) {
+    #sortable {
+         justify-content: center !important;
+    }
+   .tags-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 
+#config-buttons {
+  bottom: 50%;
+  transform: translateY(50%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) -1px 1px 1px 0, #ffffff1a 0 -1px 1px 0,
+    rgba(0, 0, 0, 0.1) -1px 0 20px 5px;
+  background-color: #030a1466;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#config-buttons a {
+  background: none;
+}
+
+#config-buttons a svg {
+  transition: all 0.1s ease-in-out;
+  color: #ffffff80;
+}
+
+#config-buttons a:hover svg {
+  transform: scale(1.1);
+  color: #fffffff2;
+}
