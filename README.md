@@ -21,9 +21,9 @@ List of things available in the github repo
 
 | Object | Path |
 | ------ | ------ |
-| CSS | ./heimdall.css |
-| JS | ./heimdall.js |
-| IMAGE | ./background.png |
+| CSS | ./src/heimdall.css |
+| JS | ./src/heimdall.js |
+| IMAGE | ./img/background.png |
 | DOC HOME | ./doc/home.png |
 | DOC HOME NO LOG | ./doc/home_no_login.png |
 | DOC HOME SEARCH | ./doc/home_search.png |
