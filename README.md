@@ -7,7 +7,7 @@
 	<img src="./doc/home.png" alt="home"/>
 </p>
 <p align="center">
-	<img src="./doc/home_search.png)" alt="home_search"/>
+	<img src="./doc/home_search.png" alt="home_search"/>
 </p>
 <p align="center">
 	<img src="./doc/home_no_login.png" alt="home_no_login"/>
