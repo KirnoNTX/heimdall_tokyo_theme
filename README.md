@@ -3,7 +3,9 @@
 
 ## Images
 
-![home](./doc/home.png)
+<p align="center">
+	<img src="./doc/home.png" alt="home"/>
+</p>
 ![home_no_login](./doc/home_no_login.png)
 ![home_search](./doc/home_search.png)
 
