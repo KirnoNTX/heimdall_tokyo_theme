@@ -6,8 +6,12 @@
 <p align="center">
 	<img src="./doc/home.png" alt="home"/>
 </p>
-![home_no_login](./doc/home_no_login.png)
-![home_search](./doc/home_search.png)
+<p align="center">
+	<img src="./doc/home_search.png)" alt="home_search.png)"/>
+</p>
+<p align="center">
+	<img src="./doc/home_no_login.png" alt="home_no_login"/>
+</p>
 
 ## Features
 
