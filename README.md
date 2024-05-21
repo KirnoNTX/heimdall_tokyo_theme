@@ -33,6 +33,6 @@ List of things available in the github repo
 > If you don't want this feature, you can change it in the js by deleting line 105 and 106.
 
 ```js
-106.        container.html("");
+105.        container.html("");
 106.        container.css("opacity", "1");
 ```
